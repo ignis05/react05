@@ -1,0 +1,66 @@
+.app {
+	border: 1px solid red;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 800px;
+	height: 600px;
+	position: relative;
+}
+
+.boards {
+	border: 1px solid green;
+	width: 600px;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.boardGroup {
+	border: 1px solid green;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 98%;
+	height: 400px;
+}
+
+.selectedB {
+	border: 1px solid green;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	width: 150px;
+	height: 500px;
+	overflow-y: auto;
+}
+
+.board {
+	border: 1px solid blue;
+	height: 100%;
+	width: 23%;
+}
+
+.tile {
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.tiles > * {
+	float: left;
+}
+
+.tiles {
+	height: 200px;
+}
+
+.clear {
+	position: absolute;
+	bottom: 5px;
+	left: 100px;
+}
